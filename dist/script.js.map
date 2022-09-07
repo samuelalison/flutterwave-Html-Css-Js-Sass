@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","names":["btnHamburger","document","querySelector","addEventListener","console","log","classList","contains","remove","add"],"sources":["script.js"],"mappings":"AAAA,MAAMA,aAAeC,SAASC,cAAc,iBAE5CF,aAAaG,iBAAiB,SAAS,WACtCC,QAAQC,IAAI,mBAETL,aAAaM,UAAUC,SAAS,QAChCP,aAAaM,UAAUE,OAAO,QAG9BR,aAAaM,UAAUG,IAAI,OAE/B"}

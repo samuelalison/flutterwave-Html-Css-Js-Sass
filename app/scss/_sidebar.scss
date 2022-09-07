@@ -1,0 +1,15 @@
+.sidebar{
+position: fixed; 
+top: 34px; 
+bottom: 0;
+height: calc(100vh - 34px);
+background-color: $white;
+padding:1.25rem;
+ 
+ h3{
+    margin-bottom:1.25rem }
+h3:not(:first-child){
+    margin-top:1.25rem;}
+
+
+}
