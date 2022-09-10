@@ -1,0 +1,69 @@
+.dark-section {
+    background-color: #1d1d1d;
+    color: #fff;
+    margin: 0 auto;
+    }
+    
+    .dark-sec-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+    /* justify-content: flex-start; */
+    /* max-width: 368px; */
+    }
+    
+    .virtual-h2{
+    margin-top: 3rem;
+    font-size: 2.375rem;
+    padding: 1.875rem 1.125rem;
+    margin-bottom: 2rem;
+    }
+    
+    .c-blue {
+    color: #6672c7;
+    }
+    
+    .virtual-p{
+    font-size: 1.0625rem;
+    line-height: 1.875rem;
+    padding: 0.125rem 0.625rem;
+    }
+    
+    .label-btn{
+    padding-top:2.5rem;
+    padding-bottom:2.5rem;
+    }
+    
+    .get-started2 {
+    font-size:0.875rem;
+    padding: 1.25rem 1.875rem;
+    border-radius:0.625rem;
+    background-color:#fff;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 3rem;
+    }
+
+
+@include breakpoint-up(large){
+.virtual-h2{
+font-size: 5rem;
+padding: 10rem 15rem 0 15rem;
+}
+
+.virtual-p{
+font-size: 1.3rem;
+/* line-height: 30px; */
+padding: 4rem 24rem 2rem 24rem;
+}
+
+.get-started2 {
+font-size: 1rem;
+padding: 2rem 2.5rem;
+
+}   
+
+}

@@ -1,0 +1,111 @@
+.cl{
+padding: 1rem 1rem;
+}
+.cl_box{
+margin: 0 auto;
+margin-bottom: 2rem;
+background-color: #1d1d1d;
+border-radius: 2rem;
+box-shadow: 0 25px 50px rgb(29 29 29 / 50%);
+color: #fff;
+padding: 3rem 3rem;
+}
+
+.cl_wrapper{
+margin: 0 auto;
+padding: auto;
+}
+
+.cl_heading{
+font-size: 2rem;
+line-height: 2rem;
+margin-bottom: 1rem;
+font-weight: 800;
+}
+
+.cl_subheading{
+font-size: 1rem;
+line-height: 2rem;
+margin-bottom: 3rem;
+}
+
+.get-started3 {
+font-size: 1rem;
+padding: 1rem 1rem;
+border-radius: 0.625rem;
+background-color:#fff;
+outline: none;
+cursor: pointer;
+border: none;
+}
+
+.cl-all_btn{
+display: flex;
+
+align-items: center;
+}
+
+
+.cl-btn{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.cl-btn2{
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+
+.contact-sales{
+font-size: 1rem;
+padding: 1rem 1rem;
+border-radius: 10px;
+background-color:#1d1d1d;
+color:#fff ;
+outline: none;
+cursor: pointer;
+border: none;
+}
+
+
+@include breakpoint-up(large){
+.cl{
+padding: 5rem 5rem;
+}
+
+.cl_box{
+/* margin: 0 auto; */
+margin-bottom: 10rem;
+border-radius: 2rem;
+padding: 8rem;
+} 
+
+.cl_wrapper{
+margin: 0 auto;
+padding: 0 5rem;
+}
+
+.cl_heading{
+font-size: 3rem;
+line-height: 3rem;
+margin-bottom: 1rem;
+font-weight: 900;
+}
+
+.cl_subheading{
+font-size: 1.5rem;
+line-height: 2rem;
+padding-top: 1rem;
+}
+
+.get-started3 {
+font-size: 1rem;
+padding: 1.5rem 2rem;
+}
+
+.contact-sales{
+font-size: 1rem;
+padding: 1.5rem 2rem;
+font-weight: 700;
+}
+}

@@ -1,0 +1,110 @@
+.trusted-sec{
+    margin-bottom: 4rem;
+}
+
+.trust{
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: 100;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-bottom: 2rem;
+    }   
+   
+   
+.business-ls{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    }
+    
+    // .business-ls{
+    
+    // }
+
+    .uber-logo{
+    max-width: 6rem;
+    padding: 1.25rem;
+    }
+    
+    .mtn-logo{
+    max-width: 6rem;
+    padding: 1.25rem;
+    }
+
+    .chipper-logo{
+    max-width: 8rem;
+    padding: 1.25rem;
+    }
+    
+    .piggyvest-logo{
+    max-width: 10rem;
+    padding: 1.25rem;
+    }
+    
+    .wise-logo{
+    max-width: 7rem;
+    padding: 1.25rem;
+    }
+    
+    .microsoft-logo{
+    max-width: 9rem;
+    padding: 1.25rem;
+    }
+
+
+
+@include breakpoint-up(large){
+    .trusted-sec{
+        padding-left: 5rem;
+        padding-right: 5rem; 
+        margin-bottom: 10rem;
+    }
+
+    .trust{
+        margin-top: 9rem;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        font-weight: 100;
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-bottom: 1rem;
+        } 
+        
+        
+        .uber-logo{
+            max-width: 9rem;
+            padding: 1.5rem;
+            }
+            
+            .mtn-logo{
+            max-width: 10rem;
+            padding: 1.5rem;
+            }
+        
+            .chipper-logo{
+            max-width: 12rem;
+            padding: 1.5rem;
+            }
+            
+            .piggyvest-logo{
+            max-width: 14rem;
+            padding: 1.5rem;
+            }
+            
+            .wise-logo{
+            max-width: 10rem;
+            padding: 1.5rem;
+            }
+            
+            .microsoft-logo{
+            max-width: 12rem;
+            padding: 1.5rem;
+            }
+       
+      
+}
+    

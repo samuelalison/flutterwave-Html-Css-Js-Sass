@@ -1,0 +1,206 @@
+
+.light-commercial {
+background-color: #f8fafd;
+color:#1d1d1d;
+}
+
+.comm-container{
+margin-left: 1.25rem;
+margin-right: 1.25rem;
+margin-top: 1.25rem;
+}
+
+.comm-h2 {
+font-size: 2rem;
+font-weight: 900;
+line-height: 2.5rem;
+padding-top: 3rem;
+padding-bottom: 4rem;
+}
+
+.c-gr{
+color:$green;
+} 
+
+.comm-store {
+font-size: 1.5rem;
+font-weight: bolder;
+padding-bottom: 1.25rem;
+padding-top: 1.875rem;
+}
+
+.comm-des {
+font-size: 1.25rem;
+padding-bottom: 1.25rem;
+line-height: 1.875rem;
+}
+
+.start-selling{
+    padding:1.875rem 0;   
+}
+
+
+.img3 {
+padding: 3.5rem 0;
+}
+
+.fw6{
+width: 100%;   
+}
+
+.comm-invoice{
+font-size: 1.5rem;
+font-weight: bolder;
+padding-bottom: 1.25rem;
+padding-top: 1.875rem;   
+}
+
+.invoic-des {
+font-size: 1.25rem;
+padding-bottom: 1.25rem;
+line-height: 1.875rem;    
+}
+
+.get-started-btn2 {
+color: #fb9129;
+font-size: 1.125rem;
+}
+
+.payment-links {
+font-size: 1.5rem;
+font-weight: bolder;
+padding-bottom: 1.25rem;
+padding-top:1.875rem; 
+}
+
+.pyt-links-des{
+font-size: 1.25rem;
+padding-bottom: 1.25rem;
+line-height: 1.875rem;
+}
+
+.learn-more{
+color: #fb9129;
+font-size: 1.125rem;   
+}
+
+.fw4 {
+width: 100%;
+}
+.fw6{
+width: 100%;
+}
+
+.a-plat{
+display: flex;
+text-align: center;
+font-size:1.125rem;
+line-height: 1.5rem; 
+}
+ 
+.lets-play{
+font-size: 2.5rem;
+padding-top: 5.625rem;
+line-height: 3.125rem;
+}
+
+.okay{
+padding:1.875rem 0;
+}
+
+
+.okay__btn {
+padding: 1.125rem 1.25rem;
+font-size: 0.9375rem;
+border-radius: 0.625rem;
+color: #fff;
+background-color: #0a0e27;
+outline: none;
+cursor: pointer;
+border: none;
+}
+
+
+@include breakpoint-up(large){
+.comm-container{
+padding-left: 5rem;
+padding-right: 5rem;
+}
+
+.comm-h2 {
+font-size: 5rem;
+line-height: 5rem;
+padding: 7rem 0;
+font-weight: 750;
+}
+
+.gridx{
+display: flex
+} 
+
+.store-feature1{
+padding-top: 8rem;
+}
+
+.grid-sectionx{
+display: flex;
+flex-direction: row-reverse;
+}
+
+.store-feature1{
+margin-top: 6rem;
+}
+
+.store-feature3{
+padding: 6rem 1rem;
+}
+
+.a-plat{
+display: flex;
+text-align: center;
+font-size: 1rem;
+// line-height: 3.125rem;
+}
+
+
+.lets-play{
+font-size: 5rem;
+line-height: 6.25rem;
+}
+
+.okay__btn {
+padding: 2rem 2rem;
+font-size: 1.25rem;
+border-radius: 0.9375rem;
+margin-bottom: 10rem;
+margin-top: 2rem;
+margin-bottom: 5rem;
+}
+
+.fw6 {
+width: 100%;
+height: 50rem;
+object-fit: cover;
+top: 2rem;
+position: relative;
+}
+
+.fw4{
+width: 100%;
+position: relative;
+// bottom: 5rem;
+height: 50rem;
+object-fit: cover;
+}
+
+.img4{
+padding:0;
+}
+.img3{
+padding:0;
+}
+}
+
+.okay{
+padding: 6rem 0;
+}

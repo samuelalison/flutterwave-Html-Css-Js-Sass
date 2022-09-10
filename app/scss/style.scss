@@ -1,6 +1,19 @@
 @import 'variables';
 @import 'mixins';
 @import 'globals';
+
+
 @import 'header';
-@import 'sidebar';
+// @import 'sidebar';
+@import 'endlesssec';
+@import 'customersec';
+@import 'trustedsec';
+@import 'paymentsec';
+@import 'lightcommercial';
+@import 'darksec';
+@import 'lightapisec';
+@import 'globalreach';
+@import 'clsec';
+@import 'footer';
+
 

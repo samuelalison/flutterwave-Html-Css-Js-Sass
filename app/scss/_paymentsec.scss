@@ -1,0 +1,122 @@
+.P--container {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+ }
+
+ .__h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    }
+    
+    .c-or{
+    color: $orange; 
+    }
+
+    .features-grid {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.875rem;
+    }
+        
+    .features-grid-section{
+    width: 100%;
+    }
+
+    .feature-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-bottom: 1.25rem;
+    }
+      
+    .features-description {
+    font-size:1.125rem;
+    margin-bottom: 2rem;
+    }
+
+    .payment-image{
+    padding-top: 4.0625rem;
+    filter:drop-shadow(0 4px 20px rgba(0,0,0,.2));
+    }
+
+    .check-png {
+    width: 75%;
+    }
+
+    .accept-payments {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding-bottom: 1.25rem;
+    padding-top: 4.0625rem;
+    }
+
+    .apt-pyt-des {
+        font-size: 1.25rem;
+        padding-bottom: 1.875rem;
+        }
+        
+        .learn-more {
+        color: #fb9129;
+        font-size: 1.125rem;
+        }
+        
+        .Transfers {
+        font-size: 1.25rem;
+        font-weight: 700;
+        padding-bottom: 1.25rem;
+        padding-top: 3.75rem;
+        }
+        
+        .trans-des {
+        font-size: 1.25rem;
+        padding-bottom: 2.5rem;
+        }
+        
+        .learn-more2{
+        color: #fb9129;
+        font-size: 1.125rem;
+        }
+
+
+
+
+@include breakpoint-up(large){
+    .P--container {
+        margin: 0 auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        margin-bottom: 8rem;
+        }
+
+        .payment-section .features{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            }
+
+
+            .payment-image{
+                object-fit: contain;
+                max-width: 33% ;
+               filter: drop-shadow(0 4px 20px rgba(0,0,0,.2));
+                }
+                
+            
+            .payment-section .features-grid-section{
+            flex: 0 1 auto;
+            width: calc(33.33333% - 4rem);
+            }
+    
+            .__h2 {
+                font-size: 5rem;
+                line-height: 5.5rem;
+                margin: 0 25rem 1rem 1rem;
+                font-weight: 900;
+                }
+    
+}
+
+        

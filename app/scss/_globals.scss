@@ -115,16 +115,14 @@ html{
 body{
    
 // i used this 2 codes above to solve the problem of VH
-
-
-    margin: 0;
-    padding: 0;
-    line-height: 1.4;
-    font-family: "Moderat",sans-serif;
-    font-size: $font-md; 
-    color: $textblack;
-    font-weight: 300;
-    // background-color: red;
+margin: 0;
+padding: 0;
+line-height: 1.4;
+font-family: "Moderat",sans-serif;
+font-size: $font-md; 
+color: $textblack;
+font-weight: 300;
+// background-color: red;
 }
 
 a, a:visited, a:hover{
@@ -147,14 +145,20 @@ align-items: center;
  }
 }
 
+.container{
+padding-left: 1.25rem;
+padding-right: 1.25rem;
+}
+
 // Button
  .btn:not(:first-child) {
-  padding: 0.875rem 2.8rem;
+  padding: 0.875rem ;
   border-radius: 10px;
   cursor: pointer;
   border: none;
-  background-color:$darkblue ;
+  background-color: $darkblue;
   color: $white;
+  font-weight: 780;
 }
 
 // Visibility
